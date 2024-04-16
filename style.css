@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
+}
+
+.card:has(img) {
+    border-color: blue;
+    background-color: #f0f8ff;
+}
